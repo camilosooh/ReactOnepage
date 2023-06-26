@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CompFour() {
+function CompFour(props) {
   return (
     <section className="bg-section-5 mt-5">
       <div className="container">
@@ -18,7 +18,7 @@ function CompFour() {
           </div>
           <div className="col-3 mb-5 card">
             <div className="front">
-              <img src="./img/lars.png" alt="" />
+              <img src={props.personaje} alt="" />
             </div>
             <div className="back">
               <h2 className="text-center">Lars</h2>

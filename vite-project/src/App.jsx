@@ -62,13 +62,13 @@ function App() {
         </div>
       </section>
     </div>
-    <CompOne />
-    <CompTwo />
-    <CompThree />
-    <CompFour />
-    <CompFive />
-    <CompSix />
-    <CompSeven />
+    <CompOne texto="Isis es un proyecto enfocado en la salud humana y animal, que se creó con el fin de fomentar las buenas prácticas humanas con respecto a la tenencia de mascotas. Asimismo, trata la desinformación que existe respecto a este tema, buscando abarcar la mayor información posible para permitir al lector conocer e interesarse más sobre este; para ello, también, se creó un juego web que permitirá informarse de una forma didáctica."/>
+    <CompTwo imagen="./img/Cientificosenapuros.png"/>
+    <CompThree titulo="Cientificos en apuros"/>
+    <CompFour personaje="./img/lars.png"/>
+    <CompFive props="./img/Jose.png"/>
+    <CompSix boton="Sign in"/>
+    <CompSeven facebook="./img/FB.png"/>
     </>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CompThree() {
+function CompThree(props) {
   const toggleTexto = () => {
     const parrafo = document.getElementById('parrafo');
     parrafo.style.display = parrafo.style.display === 'none' ? 'block' : 'none';
@@ -12,7 +12,7 @@ function CompThree() {
         <div className="row d-flex justify-content-center">
           <div>
             <div className="col-10 text-light mb-5 description">
-              <h2 id="desc" className="m-2 text-center">Cientificos en apuros</h2>
+              <h2 id="desc" className="m-2 text-center">{props.titulo}</h2>
               <hr style={{ padding: '0 0 10px 0', margin: '0 auto' }} />
               <p className="fs-6 px-5">Este juego fue creado con el fin de informar a las personas de forma didáctica acerca de la salud humana y animal. La historia gira en torno a Fleming, un científico que busca salvar la ciudad de Kingston de una nube tóxica que infecta a los animales mediante parásitos. El antídoto finalmente es encontrado gracias al trabajo conjunto del científico y los animales.</p>
             </div>

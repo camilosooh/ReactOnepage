@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CompSix() {
+function CompSix(props) {
   return (
     <section>
       <div className="container">
@@ -33,7 +33,7 @@ function CompSix() {
                 </div>
               </div>
               <div className="col-12 mb-3">
-                <button type="submit" className="butt-form btn btn-primary">Sign in</button>
+                <button type="submit" className="butt-form btn btn-primary">{props.boton}</button>
               </div>
             </form>
           </div>

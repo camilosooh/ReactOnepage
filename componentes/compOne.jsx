@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CompOne() {
+function CompOne(props) {
   return (
     <section className="bg-section-2">
       <div className="container">
@@ -11,7 +11,7 @@ function CompOne() {
               <div className="card col-5 carta" style={{ width: '18rem' }}>
                 <div className="card-body card-p text-light p-4">
                   <h5 className="card-title fs-2 text-center mb-4">Proyecto</h5>
-                  <p className="card-text">Isis es un proyecto enfocado en la salud humana y animal, que se creó con el fin de fomentar las buenas prácticas humanas con respecto a la tenencia de mascotas. Asimismo, trata la desinformación que existe respecto a este tema, buscando abarcar la mayor información posible para permitir al lector conocer e interesarse más sobre este; para ello, también, se creó un juego web que permitirá informarse de una forma didáctica.</p>
+                  <p className="card-text">{props.texto}</p>
                 </div>
               </div>
               <div className="col-2 column2"></div>

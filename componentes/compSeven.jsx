@@ -1,6 +1,7 @@
 import React from 'react';
 
-function CompSeven() {
+function CompSeven(props) {
+  
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -15,7 +16,7 @@ function CompSeven() {
         <div className="row">
           <div className="col-4"></div>
           <div className="col-1 m0-a">
-            <img className="m0-a" src="./img/FB.png" alt="Facebook" />
+            <img className="m0-a" src={props.facebook} alt="Facebook" />
           </div>
           <div className="col-1 m0-a">
             <img className="m0-a" src="./img/IG.png" alt="Instagram" />
